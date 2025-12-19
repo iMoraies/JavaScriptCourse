@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+
+<body>
+    <input type="number" id="numero1" />
+    <input type="number" id="numero2" />
+    <input type="button" value="enviar" onclick="enviar()" />
+    <div id="resultado">RESULTADO</div>
+
+    <script>
+
+        function enviar() {
+            var n1 = document.querySelector('#numero1')
+            var n2 = document.querySelector('#numero2')
+            var res = document.querySelector('#resultado')
+
+            if (n1.value === '' || n2.value === '') {
+                res.innerHTML = 'Please, fill in both fields!'
+                return
+            }
+
+            var num1 = Number(n1.value)
+            var num2 = Number(n2.value)
+            var soma = num1 + num2
+
+            var comparacao = ''
+            if (num1 > num2) {
+                comparacao = 'MAIOR'
+            } else if (num1 < num2) {
+                comparacao = 'MENOR'
+            } else {
+                comparacao = 'IGUAL'
+            }
+
+
+            res.innerHTML = `A soma entre ${num1} e ${num2} é <strong>${soma}</strong> <br> 
+                            O primeiro número é ${comparacao} que o segundo. <br> 
+                            Os números são ${comparacao === 'IGUAL' ? 'IGUAIS' : 'DIFERENTES'}.`
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST DOM</title>
+    <style>
+        body {
+            background-color: rgb(2, 2, 52);
+            color: white;
+            font: normal 20pt Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Starting DOM</h1>
+    <p>The result</p>
+    <p>Learning <strong>DOM</strong></p> <!-- DOM = Document Object Model -->
+    <div class="msg">Click here.</div>
+
+    <script>
+        
+        var p1 = document.getElementsByTagName('p')[1]
+
+        /*
+
+        Existem todos esses getElements:
+        getElementById()
+        getElementsByClassName()
+        getElementsByTagName()
+        getElementsByName()
+        e o querySelector() e o querySelectorAll()
+        */
+
+
+        var d = document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerHTML = "You reading this"
+       
+
+        var d = document.getElementsByClassName('msg')[0]
+        d.innerText = "Hi there!"
+        
+
+        d = document.querySelector('.msg')
+        d.style.color = 'blue'
+
+        /* # é para id
+           . é para class
+        */
+
+    </script>
+
+</body>
+</html>

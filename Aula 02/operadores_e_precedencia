@@ -1,0 +1,32 @@
+<script>
+    
+
+    var a = 5 +3
+    var b = a % 5
+    var c = 5 * b ** 2
+    var d = 10 - a / 2
+    var e = 6 * 2 / d
+    var f = b % e + 4 / e
+
+    /*  
+        ! = negação
+        && = conjunção (e)
+        || = disjunção (ou)
+
+        a > b && b % 2 == 0
+        Primeiro os operadores ARITMÉTICOS , depois os RELACIONAIS e por fim os LÓGICOS.
+
+        Primeiro ! depois o && e por fim o ||
+        
+        Ordem de precedência dos operadores: 
+        1º Parênteses ()
+        2º Expoentes **
+        3º Multiplicação * , Divisão / , Resto %
+        4º Adição + , Subtração -    
+
+        = significa atribuição
+        == significa comparação de valores
+        === significa comparação de valores e tipos
+    */
+
+</script>
