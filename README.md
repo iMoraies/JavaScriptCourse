@@ -6,14 +6,14 @@ Este projeto contém várias pastas com exercícios e exemplos de código em HTM
 
 ---
 
-## 📚 Estrutura das aulas
+## Estrutura das aulas
 
 O repositório está organizado por pastas de aula com os arquivos correspondentes:
 
 **Exemplos incluídos até agora:**
-- `Aula 01` – alert, confirm e prompt
-- `Aula 02` – conceitos e práticas intermediárias
-- `Aula 03` – continuação e exemplos extra
+- `Aula 01` – Alert, confirm e prompt
+- `Aula 02` – Conceitos e práticas intermediárias
+- `Aula 03` – Continuação e conceitos extras
 - `Practice/Excercice 01` – exercícios práticos
 
 ---

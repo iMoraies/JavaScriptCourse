@@ -1,0 +1,12 @@
+        body {
+            font: normal 18pt Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            font: normal 18pt Arial, Helvetica, sans-serif;
+            width: 100px;
+        }
+
+        div#res {
+            margin-top: 20px
+        }
