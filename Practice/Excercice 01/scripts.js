@@ -20,8 +20,7 @@ function enviar() {
     } else {
         comparacao = 'IGUAL'
     }
-
-
+    
     res.innerHTML = `A soma entre ${num1} e ${num2} é <strong>${soma}</strong> <br> 
                             O primeiro número é ${comparacao} que o segundo. <br> 
                             Os números são ${comparacao === 'IGUAL' ? 'IGUAIS' : 'DIFERENTES'}.`
